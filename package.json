@@ -1,0 +1,18 @@
+{
+	"name": "postform-js",
+	"version": "0.1.0",
+	"description": "Client JS for Postform",
+	"main": "webpack.mix.js",
+	"scripts": {
+		"serveStatic": "serve",
+		"watch": "npm run dev -- --watch",
+		"dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+		"build": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+	},
+	"author": "Chris Galbraith",
+	"license": "ISC",
+	"devDependencies": {
+		"cross-env": "^7.0.2",
+		"laravel-mix": "^5.0.4"
+	}
+}
