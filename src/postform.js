@@ -2,14 +2,12 @@ class Postform {
 	constructor(form) {
 		// Setup default config
 		this.config = {
-			apiUrl: `http://localhost:4000`
+			apiUrl: `https://f.postform.dev`
 		};
 
 		// Get form element
 		this.form = form;
 		this.token = this.getFormToken();
-
-		console.log(this.getValidationEndpoint());
 
 		// Prevent the browser doing native validation if we're using this class
 		this.form.setAttribute('novalidate', true);

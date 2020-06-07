@@ -1,12 +1,1 @@
-:root {
-	--postform-color-red: #c53030;
-	--postform-color-green: #38a169;
-}
-
-.postform__error {
-	color: var(--postform-error-color, var(--postform-color-red));
-}
-
-form [data-state='invalid'] {
-	border-color: var(--postform-invalid-color, var(--postform-color-red));
-}
+:root{--postform-color-red:#c53030;--postform-color-green:#38a169}.postform__error{color:var(--postform-error-color,var(--postform-color-red))}form [data-state=invalid]{border-color:var(--postform-invalid-color,var(--postform-color-red))}
