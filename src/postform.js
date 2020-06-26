@@ -177,7 +177,7 @@ class Postform {
 
 	// Add Stylesheet
 	let stylesheet = document.createElement('link');
-	stylesheet.href = 'dist/postform.css';
+	stylesheet.href = 'https://unpkg.com/postform-js/dist/postform.css';
 	stylesheet.rel = 'stylesheet';
 	document.head.appendChild(stylesheet);
 })();

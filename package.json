@@ -1,8 +1,8 @@
 {
 	"name": "postform-js",
-	"version": "0.1.0",
+	"version": "0.1.2",
 	"description": "Client JS for Postform",
-	"main": "webpack.mix.js",
+	"main": "src/postform.js",
 	"scripts": {
 		"serve": "serve",
 		"watch": "npm run dev -- --watch",
