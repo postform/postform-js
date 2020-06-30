@@ -1,6 +1,6 @@
 {
 	"name": "postform-js",
-	"version": "0.1.5",
+	"version": "0.2.0",
 	"description": "Client JS helper for Postform",
 	"main": "src/postform.js",
 	"scripts": {

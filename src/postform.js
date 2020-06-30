@@ -15,8 +15,7 @@ class Postform {
 		// Setup submit listener
 		this.form.addEventListener('submit', this.validate.bind(this));
 
-		// Cleanup
-		this.form.removeAttribute('postform');
+		// Add Postform class
 		this.form.classList.add('postform');
 	}
 
