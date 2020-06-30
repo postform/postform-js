@@ -136,7 +136,8 @@ class Postform {
 	 */
 	resetInputState() {
 		let inputs = this.form.querySelectorAll('input, select, textarea');
-		let errors = this.form.querySelectorAll('.postform_error');
+		let errors = this.form.querySelectorAll('.postform__error');
+
 		inputs.forEach((input) => input.removeAttribute('data-state'));
 		errors.forEach((error) => error.remove());
 	}
